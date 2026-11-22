@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nocturne — The Hollow Bargain</title>
+  <meta name="description" content="Nocturne is a tiny engine for dark branching fairy tales. Read The Hollow Bargain: a letter-carrier, a forest that answers back, and a bargain with something old.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark">Nocturne</span>
+      <span class="brand-sub">The Hollow Bargain</span>
+    </div>
+    <div class="header-right">
+      <div class="progress" id="progress" role="status" aria-label="Scenes read"></div>
+      <span class="scene-label" id="scene-label"></span>
+    </div>
+  </header>
+
+  <main id="view" aria-live="polite"></main>
+
+  <footer class="site-footer">
+    <p>Nocturne — a tiny engine for dark tales &middot; by EthnaGraze</p>
+    <p><a href="README.md#how-to-write-a-story">How to write a story</a> &middot; <a href="README.md">About</a></p>
+  </footer>
+
+  <noscript>
+    <p class="noscript">Nocturne needs JavaScript to tell its tales. Please enable it, and the forest will be waiting.</p>
+  </noscript>
+
+  <script src="the-hollow-bargain.js"></script>
+  <script src="engine.js"></script>
+</body>
+</html>
